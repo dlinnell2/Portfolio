@@ -1,18 +1,33 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  Jumbotron, Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Container, Row, Col, Button
+} from 'reactstrap';
+import info from './info.json';
+import clockface from './images/clockface.png'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <Jumbotron>
+          <h1 className='display-3 center'>Donald Linnell</h1>
+          <h2 className='display-4 center'>Portfolio</h2>
+        </Jumbotron>
+        <Container>
+          <Row>
+            {info.map(site => (
+              <Col xs='6'>
+                <Card  className='cardPad' inverse style={{backgroundColor:'#333'}}>
+                  <CardImg src={require(`${site.image}`)} />
+                  <CardTitle>{site.title}</CardTitle>
+                  <CardText>{site.desc}</CardText>
+                  <a href={site.link}><Button>Visit the site</Button></a>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </Container>
       </div>
     );
   }

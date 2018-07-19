@@ -1,0 +1,23 @@
+[
+    {
+        "image":"./images/clockface.png",
+        "title": "ClockFace",
+        "desc": "Clock in and out appliciation built with React and utilizing facial recognition",
+        "link": "https://clockface.herokuapp.com"
+    },{
+        "image":"./images/helios.png",
+        "title":"Helios",
+        "desc":"Application that shows live estimates of Uber and Lyft and allows the user to call a ride from within the application",
+        "link":"https://helios-rideshare.herokuapp.com"
+    },{
+        "image":"./images/huddle.png",
+        "title":"Huddle",
+        "desc":"Application that allows user to enter multiple locations, finds the midpoint and searches for coffeshops/cafes within that area",
+        "link":"https://davidvizena.github.io/project1/"
+    },{
+        "image":"./images/rps.png",
+        "title":"Multi-Player RPS",
+        "desc":"Multiplayer RPS that utitlizes Firebase for chat functionality and live tracking of multiple connections",
+        "link":"https://dlinnell2.github.io/RPSGame/"
+    }
+]

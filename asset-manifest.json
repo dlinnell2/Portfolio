@@ -1,7 +1,14 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.91611e9e.js",
-  "main.js.map": "static/js/main.91611e9e.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.1129e1b9.css",
+  "main.css.map": "static/css/main.1129e1b9.css.map",
+  "main.js": "static/js/main.d8d8a887.js",
+  "main.js.map": "static/js/main.d8d8a887.js.map",
+  "static/media/batman.png": "static/media/batman.0d19c0f3.png",
+  "static/media/beatles.png": "static/media/beatles.17471964.png",
+  "static/media/clickgame.png": "static/media/clickgame.3b246232.png",
+  "static/media/clockface.png": "static/media/clockface.cce7da8e.png",
+  "static/media/helios.png": "static/media/helios.54594e64.png",
+  "static/media/huddle.png": "static/media/huddle.1d589f63.png",
+  "static/media/rps.png": "static/media/rps.d004718f.png",
+  "static/media/scraper.png": "static/media/scraper.b1e06698.png"
 }
